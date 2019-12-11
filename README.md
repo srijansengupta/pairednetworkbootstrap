@@ -21,10 +21,6 @@ A2	The second adjacency matrix
 d	Number of parameters for Adjacency Spectral Embedding (ASE)
 B	Number of Bootstrap resamples
 
-Output
-
-A array of p-values, one for each egonet. 
-
 ##############################################################################
 
 T.ase.scale
@@ -43,10 +39,6 @@ A1	The first adjacency matrix
 A2	The second adjacency matrix
 d	Number of parameters for Adjacency Spectral Embedding (ASE)
 B	Number of Bootstrap resamples
-
-Output
-
-A array of p-values, one for each egonet. 
 
 ##############################################################################
 
