@@ -20,7 +20,7 @@ A1	The first adjacency matrix
 
 A2	The second adjacency matrix
 
-d	Number of parameters for Adjacency Spectral Embedding (ASE)
+d	Number of dimensions for Adjacency Spectral Embedding (ASE)
 
 B	Number of Bootstrap resamples
 
@@ -39,8 +39,11 @@ T.ase.scale(A1, A2, d, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
-d	Number of parameters for Adjacency Spectral Embedding (ASE)
+
+d	Number of dimensions for Adjacency Spectral Embedding (ASE)
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -58,8 +61,11 @@ T.frob.rdpg(A1, A2, d, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
-d	Number of parameters for Adjacency Spectral Embedding (ASE)
+
+d	Number of dimensions for Adjacency Spectral Embedding (ASE)
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -77,8 +83,11 @@ T.scale.rdpg(A1, A2, d, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
-d	Number of parameters for Adjacency Spectral Embedding (ASE)
+
+d	Number of dimensions for Adjacency Spectral Embedding (ASE)
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -96,7 +105,9 @@ T.frob.chunglu(A1, A2, B)
 Arguements
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -115,7 +126,9 @@ T.scale.chunglu(A1, A2, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -133,8 +146,11 @@ T.frob.dcbm(A1, A2, k, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 k	Number of communities or groups for the dcbm
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -152,8 +168,11 @@ T.scale.dcbm(A1, A2, k, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 k	Number of communities or groups for the dcbm
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -172,7 +191,9 @@ TWtest(A1, A2, r)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 r	Precomputed communities
 
 ##############################################################################
@@ -190,8 +211,11 @@ T.frob.pabm(A1, A2, k, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 k	Number of communities or groups for the pabm
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -209,8 +233,11 @@ T.scale.pabm(A1, A2, k, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 k	Number of communities or groups for the pabm
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
@@ -229,9 +256,13 @@ T.frob.pabm.par(A1, A2, k, B, cores)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 k	Number of communities or groups for the pabm
+
 B	Number of Bootstrap resamples
+
 cores	Number of cores of the machine one will use to run the code while using parallel computing
 
 ##############################################################################
@@ -250,9 +281,13 @@ T.scale.pabm.par(A1, A2, k, B, cores)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 k	Number of communities or groups for the pabm
+
 B	Number of Bootstrap resamples
+
 cores	Number of cores of the machine one will use to run the code while using parallel computing
 
 ################################################################################
