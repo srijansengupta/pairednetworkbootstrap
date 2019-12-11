@@ -17,8 +17,11 @@ T.ase.equal(A1, A2, d, B)
 Arguments
 
 A1	The first adjacency matrix
+
 A2	The second adjacency matrix
+
 d	Number of parameters for Adjacency Spectral Embedding (ASE)
+
 B	Number of Bootstrap resamples
 
 ##############################################################################
